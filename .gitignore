@@ -95,6 +95,8 @@ runs/
 # Existing presentation working directory and local generated deliverables.
 /.pptx-build/
 /output/
+/report/.pptx-build/
+/report/output/
 
 # OS and local IDE state.
 .DS_Store
