@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideoFlow - 영상 편집</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">VideoFlow</div>
+    <span class="step-label">STEP 2 / 3 · 영상 편집</span>
+  </header>
+
+  <main class="editor-page">
+    <section class="editor-layout">
+      <div class="preview-panel">
+        <div class="panel-title">분석 결과 미리보기</div>
+        <video id="previewVideo" controls></video>
+        <div id="videoPlaceholder" class="video-placeholder">
+          <div>🎬</div>
+          <p>분석된 영상이 이곳에 표시됩니다.</p>
+        </div>
+      </div>
+
+      <aside class="tools-panel">
+        <h2>편집 도구</h2>
+        <p class="muted">현재는 화면 흐름 확인을 위한 데모입니다.</p>
+
+        <button class="tool-btn" disabled>✂️ 자르기</button>
+        <button class="tool-btn" disabled>🎨 필터</button>
+        <button class="tool-btn" disabled>📝 자막</button>
+        <button class="tool-btn" disabled>✨ 효과</button>
+
+        <div class="tool-note">
+          실제 편집 기능은 추후 서버/프론트엔드 편집 모듈과 연결할 수 있습니다.
+        </div>
+
+        <button id="confirmEditBtn" class="btn primary full">편집 확인 및 휴대폰 연결</button>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const video = document.getElementById("previewVideo");
+    const placeholder = document.getElementById("videoPlaceholder");
+    const savedUrl = sessionStorage.getItem("uploadedVideoUrl");
+
+    if (savedUrl) {
+      video.src = savedUrl;
+      video.classList.remove("hidden");
+      placeholder.classList.add("hidden");
+    }
+
+    document.getElementById("confirmEditBtn").addEventListener("click", () => {
+      window.location.href = "connect.html";
+    });
+  </script>
+</body>
+</html>

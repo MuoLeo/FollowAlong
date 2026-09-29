@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideoFlow - 영상 업로드</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-center">
+    <section class="card upload-card">
+      <div class="brand">VideoFlow</div>
+      <h1>영상을 업로드해주세요</h1>
+      <p class="subtitle">동영상을 업로드하면 분석 및 편집 준비가 시작됩니다.</p>
+
+      <label class="drop-zone" id="dropZone" for="videoInput">
+        <div class="drop-icon">🎬</div>
+        <strong>동영상 선택하기</strong>
+        <span>클릭하거나 동영상 파일을 끌어다 놓으세요</span>
+        <small>MP4 · MOV · WebM</small>
+      </label>
+      <input id="videoInput" type="file" accept="video/*" hidden>
+
+      <div id="fileInfo" class="file-info hidden"></div>
+      <button id="uploadBtn" class="btn primary" disabled>영상 업로드</button>
+      <p id="message" class="message"></p>
+    </section>
+  </main>
+
+  <div id="loadingModal" class="modal hidden">
+    <div class="modal-box">
+      <div class="spinner"></div>
+      <h2>영상 분석 중...</h2>
+      <p>가상 서버가 영상을 분석하고 있습니다.<br>잠시만 기다려주세요.</p>
+      <div class="progress"><div id="progressBar"></div></div>
+      <span id="progressText">0%</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
