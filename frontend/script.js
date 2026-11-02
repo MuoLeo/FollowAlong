@@ -127,7 +127,7 @@ if (qrCode && sessionIdElement) {
 
   // GitHub Pages에 배포된 모바일 페이지 주소
   const mobileUrl =
-    `https://muoleo.github.io/frontend/mobile.html?session=${encodeURIComponent(sessionId)}`;
+    `https://muoleo.github.io/FollowAlong/frontend/mobile.html?session=${encodeURIComponent(sessionId)}`;
 
   console.log("QR 코드 연결 주소:", mobileUrl);
 
