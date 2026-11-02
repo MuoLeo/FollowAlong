@@ -113,6 +113,7 @@ function showProcessingModal() {
 // ------------------------------------------------------------
 // connect.html : 세션 ID + QR 코드 생성
 // ------------------------------------------------------------
+
 const qrCode = $("#qrCode");
 const sessionIdElement = $("#sessionId");
 
@@ -124,10 +125,11 @@ if (qrCode && sessionIdElement) {
   sessionStorage.setItem("sessionId", sessionId);
   sessionIdElement.textContent = sessionId;
 
-  // 현재 페이지의 경로를 기준으로 mobile.html 주소 생성
+  // GitHub Pages에 배포된 모바일 페이지 주소
   const mobileUrl =
-    `${window.location.origin}${window.location.pathname.replace(/connect\.html$/, "")}` +
-    `mobile.html?session=${encodeURIComponent(sessionId)}`;
+    `https://muoleo.github.io/frontend/mobile.html?session=${encodeURIComponent(sessionId)}`;
+
+  console.log("QR 코드 연결 주소:", mobileUrl);
 
   if (typeof QRCode !== "undefined") {
     qrCode.innerHTML = "";
@@ -146,15 +148,6 @@ if (qrCode && sessionIdElement) {
       </div>
     `;
   }
-}
-
-const backBtn = $("#backBtn");
-
-if (backBtn) {
-  backBtn.addEventListener("click", () => {
-    sessionStorage.clear();
-    window.location.href = "index.html";
-  });
 }
 
 // ------------------------------------------------------------
