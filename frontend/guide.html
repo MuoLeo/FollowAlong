@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>FollowAlong - 제작 가이드</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./guide.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">FollowAlong</div>
+    <span class="step-label">STEP 4 · 제작 가이드</span>
+  </header>
+  <main class="guide-page">
+    <section class="guide-layout">
+      <div class="guide-video-panel">
+        <div class="guide-panel-heading">
+          <div><p class="guide-eyebrow">현재 진행 단계</p><h1 id="guideStepTitle">제작 단계를 불러오는 중...</h1></div>
+          <span id="guideStepNumber" class="guide-step-number">STEP - / -</span>
+        </div>
+        <div class="guide-video-wrap">
+          <video id="guideVideo" controls playsinline></video>
+          <div id="guideVideoPlaceholder" class="guide-video-placeholder">
+            <div class="guide-placeholder-icon">▶</div><p>업로드한 제작 영상이 이곳에 표시됩니다.</p>
+          </div>
+        </div>
+        <p id="guideTranscript" class="guide-transcript"></p>
+        <div class="guide-progress">
+          <div class="guide-progress-track"><div id="guideProgressBar" class="guide-progress-bar"></div></div>
+          <span id="guideTimeLabel">0.00초 / 0.00초</span>
+        </div>
+      </div>
+      <aside class="guide-side-panel">
+        <h2>조립 상태 확인</h2>
+        <p class="guide-muted">현재는 서버가 없는 프론트엔드 데모입니다. 아래 버튼으로 휴대폰 카메라 분석 결과를 직접 선택해보세요.</p>
+        <div id="guideStatus" class="guide-status neutral" role="status" aria-live="polite">휴대폰 연결 및 조립 상태 판정을 기다리고 있습니다.</div>
+        <div class="guide-result-buttons">
+          <button id="resultDoneBtn" class="btn primary full">✓ 조립 완료</button>
+          <button id="resultObscuredBtn" class="btn secondary full">카메라에 조립물이 보이지 않음</button>
+          <button id="resultWrongBtn" class="btn danger full">잘못 조립함</button>
+        </div>
+        <div class="guide-divider"></div>
+        <h3>제작 단계 목록</h3>
+        <ol id="guideStepList" class="guide-step-list"></ol>
+        <button id="backToConnectBtn" class="btn secondary full">연결 화면으로 돌아가기</button>
+      </aside>
+    </section>
+  </main>
+  <script src="./guide.js"></script>
+</body>
+</html>
