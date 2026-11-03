@@ -404,7 +404,8 @@ const params = new URLSearchParams(window.location.search);
 const sessionId = params.get("session") || "DEMO";
 
 // HTML 요소
-const video = document.getElementById("cameraPreview");
+const video = document.getElementById("camera");
+const overlay = document.getElementById("cameraOverlay");
 const startBtn = document.getElementById("startCameraBtn");
 const switchBtn = document.getElementById("switchCameraBtn");
 const recordBtn = document.getElementById("recordBtn");
@@ -434,6 +435,7 @@ async function startCamera() {
   try {
     if (currentStream) {
       currentStream.getTracks().forEach(track => track.stop());
+      currnetStream = null;
     }
 
     currentStream = await navigator.mediaDevices.getUserMedia({
@@ -448,8 +450,11 @@ async function startCamera() {
     video.srcObject = currentStream;
     await video.play();
 
-    if (startBtn) startBtn.classList.add("hidden");
-    if (recordBtn) recordBtn.classList.remove("hidden");
+     // 안내 화면 숨기기
+    overlay?.classList.add("hidden");
+
+    startBtn?.classList.add("hidden");
+    recordBtn?.classList.remove("hidden");
 
     if (status) {
       status.textContent = "카메라가 연결되었습니다.";
@@ -457,6 +462,9 @@ async function startCamera() {
 
   } catch (error) {
     console.error("카메라 실행 실패:", error);
+
+     // 실패하면 안내 화면 다시 표시
+    overlay?.classList.remove("hidden");
 
     if (status) {
       status.textContent = "카메라를 실행할 수 없습니다.";
