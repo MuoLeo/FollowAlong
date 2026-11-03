@@ -352,6 +352,110 @@ h1 {
   line-height: 1.6;
 }
 
+
+/* Step Editor */
+
+#stepList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.step-item {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fafbfe;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.step-header strong {
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.delete-step-btn {
+  border: 1px solid #fecaca;
+  background: #fff1f2;
+  color: var(--danger);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.delete-step-btn:hover {
+  background: #ffe4e6;
+}
+
+.step-item label {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.step-title,
+.start-time,
+.end-time {
+  width: 100%;
+  min-height: 40px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--text);
+  outline: none;
+}
+
+.step-title:focus,
+.start-time:focus,
+.end-time:focus {
+  border-color: var(--primary);
+}
+
+.step-transcript {
+  margin: 12px 0;
+  padding: 10px;
+  background: #f0f1f8;
+  border-radius: 8px;
+  color: #626a7a;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.time-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#addStepBtn {
+  width: 100%;
+  min-height: 44px;
+  margin-bottom: 14px;
+  border: 1px dashed var(--primary);
+  border-radius: 10px;
+  background: #f7f7ff;
+  color: var(--primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#addStepBtn:hover {
+  background: #ededff;
+}
+
+
 /* Connect */
 
 .connect-card {
