@@ -435,7 +435,7 @@ async function startCamera() {
   try {
     if (currentStream) {
       currentStream.getTracks().forEach(track => track.stop());
-      currnetStream = null;
+      currentStream = null;
     }
 
     currentStream = await navigator.mediaDevices.getUserMedia({
