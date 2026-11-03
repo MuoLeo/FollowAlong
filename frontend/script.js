@@ -349,7 +349,7 @@ if (document.getElementById("stepList")) {
 
     alert("제작 단계 수정이 완료되었습니다.");
 
-    window.location.href = "connect.html";
+    window.location.href = "./connect.html";
   });
 
   // 최초 화면 표시
