@@ -9,7 +9,7 @@
 <body class="mobile-body">
   <main class="mobile-page">
     <section class="mobile-card">
-      <div class="brand">VideoFlow</div>
+      <div class="brand">FollowAlong</div>
       <h1>휴대폰 카메라</h1>
       <p id="sessionMessage" class="subtitle">카메라를 준비하고 있습니다.</p>
 
@@ -24,6 +24,9 @@
       <div class="mobile-actions">
         <button id="startCameraBtn" class="btn primary full">카메라 시작</button>
         <button id="recordBtn" class="btn danger full hidden">● 촬영 시작</button>
+        <button id="switchCameraBtn"> 전면 카메라 전환 </button>
+
+        <video id="cameraPreview" autoplay playsinline muted></video>
         <button id="stopBtn" class="btn secondary full hidden">■ 촬영 종료 및 전송</button>
       </div>
 
@@ -31,78 +34,7 @@
     </section>
   </main>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const sessionId = params.get("session") || "DEMO";
-    const video = document.getElementById("camera");
-    const overlay = document.getElementById("cameraOverlay");
-    const startBtn = document.getElementById("startCameraBtn");
-    const recordBtn = document.getElementById("recordBtn");
-    const stopBtn = document.getElementById("stopBtn");
-    const status = document.getElementById("mobileStatus");
-    const sessionMessage = document.getElementById("sessionMessage");
-
-    let stream = null;
-    let recorder = null;
-    let chunks = [];
-
-    sessionMessage.textContent = `세션 ${sessionId}에 연결되었습니다.`;
-
-    startBtn.addEventListener("click", async () => {
-      try {
-        stream = await navigator.mediaDevices.getUserMedia({
-          video: { facingMode: { ideal: "environment" } },
-          audio: false
-        });
-
-        video.srcObject = stream;
-        overlay.classList.add("hidden");
-        startBtn.classList.add("hidden");
-        recordBtn.classList.remove("hidden");
-
-        status.textContent = "카메라가 연결되었습니다. 촬영을 시작할 수 있습니다.";
-      } catch (error) {
-        console.error(error);
-        status.textContent =
-          "카메라 접근에 실패했습니다. 브라우저의 카메라 권한과 HTTPS/localhost 환경을 확인해주세요.";
-      }
-    });
-
-    recordBtn.addEventListener("click", () => {
-      if (!stream) return;
-
-      chunks = [];
-      recorder = new MediaRecorder(stream);
-
-      recorder.ondataavailable = event => {
-        if (event.data.size > 0) chunks.push(event.data);
-      };
-
-      recorder.onstop = () => {
-        const blob = new Blob(chunks, { type: "video/webm" });
-        const sizeMB = (blob.size / 1024 / 1024).toFixed(2);
-
-        recordBtn.classList.add("hidden");
-        stopBtn.classList.add("hidden");
-
-        status.innerHTML =
-          `촬영 완료 · ${sizeMB} MB<br><strong>현재는 가상 서버 전송 단계입니다.</strong>`;
-
-        // 실제 서버가 준비되면 이 Blob을 FormData에 넣어 fetch로 업로드하면 됩니다.
-        console.log("가상 서버로 전송할 영상:", blob);
-      };
-
-      recorder.start();
-      recordBtn.classList.add("hidden");
-      stopBtn.classList.remove("hidden");
-      status.textContent = "촬영 중입니다...";
-    });
-
-    stopBtn.addEventListener("click", () => {
-      if (recorder && recorder.state !== "inactive") {
-        recorder.stop();
-      }
-    });
-  </script>
+  <script src="./script.js?v=2"></script>
+  
 </body>
 </html>
