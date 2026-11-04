@@ -1,0 +1,10 @@
+{
+  "version": "v50",
+  "files": {
+    "encoder_supcon.pt": "69c33ec5e8c0a040fabf9f203a9cfb7c21effd10a52980b9e0bd8d49789e256d",
+    "stage_prototypes.pt": "0c8ca50bbaf2e2b6f856601cf8017cac4ffcf1eb93ad4a5d6e520bb699cba8d4",
+    "temporal_final.pt": "e0317fad6ce5074fdb6acb98b23ebf25b5d7f56a20042a3da9415a43932c2592",
+    "rider_verifier.npz": "40b8c9f9f8b11cd157c9de76086aeabef39de7de9be26d97dfb9b07b5f944e4c"
+  },
+  "policy_lock_sha256": "8030f884138381317994c29d728c29a3680ec7d83eb5a18ad1e0da710c4a78ee"
+}
