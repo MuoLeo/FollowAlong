@@ -540,7 +540,7 @@ async function sendFrameToServer(blob) {
   }
 }
 
-// 3초마다 프레임 캡처
+// 0.5초마다 프레임 캡처
 function startFrameCapture() {
   if (captureTimer) return;
 
@@ -548,7 +548,7 @@ function startFrameCapture() {
 
   captureTimer = setInterval(() => {
     captureFrame();
-  }, 3000);
+  }, 500);
 }
 
 // 프레임 캡처 종료
