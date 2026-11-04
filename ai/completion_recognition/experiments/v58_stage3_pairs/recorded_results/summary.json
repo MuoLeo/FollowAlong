@@ -1,0 +1,320 @@
+{
+  "version": "V58_STAGE3_PAIRED_OFFLINE",
+  "frames": 153,
+  "normal_frames": 132,
+  "error_frames": 21,
+  "videos": 16,
+  "capture_groups": 15,
+  "new_pair_videos_held_together": true,
+  "encoder_sha256": "69c33ec5e8c0a040fabf9f203a9cfb7c21effd10a52980b9e0bd8d49789e256d",
+  "threshold": 0.5,
+  "baseline_v56": {
+    "accuracy": 0.9481481481481482,
+    "balanced_accuracy": 0.9416666666666667,
+    "error_precision": 0.7,
+    "error_recall": 0.9333333333333333,
+    "error_f1": 0.8,
+    "normal_false_alarm_rate": 0.05,
+    "confusion_matrix_normal_error": [
+      [
+        114,
+        6
+      ],
+      [
+        1,
+        14
+      ]
+    ],
+    "folds": [
+      {
+        "video": "error_stage01_02_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_02.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage04_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage05_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage_unkown_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 1
+      },
+      {
+        "video": "fullstage_val_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "fullstage_val_02.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "outofview_showcase_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 3,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec01_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec02_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec03_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec04_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec05_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 3,
+        "missed_errors": 0
+      }
+    ]
+  },
+  "expanded_group_cv": {
+    "accuracy": 0.9084967320261438,
+    "balanced_accuracy": 0.7867965367965368,
+    "error_precision": 0.6842105263157895,
+    "error_recall": 0.6190476190476191,
+    "error_f1": 0.65,
+    "normal_false_alarm_rate": 0.045454545454545456,
+    "confusion_matrix_normal_error": [
+      [
+        126,
+        6
+      ],
+      [
+        8,
+        13
+      ]
+    ],
+    "folds": [
+      {
+        "video": "error_stage01_02_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_02.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage04_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage05_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 1
+      },
+      {
+        "video": "error_stage_unkown_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 1
+      },
+      {
+        "video": "fullstage_val_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "fullstage_val_02.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "outofview_showcase_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 3,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec01_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec02_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec03_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec04_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec05_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 3,
+        "missed_errors": 0
+      },
+      {
+        "video": "stage03_pair_shared_capture_group",
+        "normal_frames": 12,
+        "error_frames": 6,
+        "false_alarms": 0,
+        "missed_errors": 6
+      }
+    ]
+  },
+  "original_135_before": {
+    "frames": 135,
+    "normal_frames": 120,
+    "error_frames": 15,
+    "normal_false_alarms": 6,
+    "missed_errors": 1
+  },
+  "original_135_after": {
+    "frames": 135,
+    "normal_frames": 120,
+    "error_frames": 15,
+    "normal_false_alarms": 6,
+    "missed_errors": 2
+  },
+  "original_stage3_before": {
+    "frames": 29,
+    "normal_frames": 24,
+    "error_frames": 5,
+    "normal_false_alarms": 6,
+    "missed_errors": 0
+  },
+  "original_stage3_after": {
+    "frames": 29,
+    "normal_frames": 24,
+    "error_frames": 5,
+    "normal_false_alarms": 3,
+    "missed_errors": 0
+  },
+  "new_capture_heldout": {
+    "frames": 18,
+    "normal_frames": 12,
+    "error_frames": 6,
+    "normal_false_alarms": 0,
+    "missed_errors": 6
+  },
+  "new_capture_by_video": {
+    "stage03_pair_01.mp4": {
+      "frames": 9,
+      "normal_frames": 6,
+      "error_frames": 3,
+      "normal_false_alarms": 0,
+      "missed_errors": 3
+    },
+    "stage03_pair_02.mp4": {
+      "frames": 9,
+      "normal_frames": 6,
+      "error_frames": 3,
+      "normal_false_alarms": 0,
+      "missed_errors": 3
+    }
+  },
+  "rec06_used": false,
+  "stage2_error_evaluation_available": false,
+  "server_integration": false,
+  "deployable": false,
+  "independent_final_test": false,
+  "notes": [
+    "Two new videos share similar capture conditions and are held out together.",
+    "New-pair heldout scores are produced by V56 old-only training; no new-pair frames enter that fit.",
+    "Expanded old-group folds may train on both new pair videos, while excluding the entire evaluated old video.",
+    "Classifier/threshold fixed to V56; no parameter search.",
+    "Frozen encoder was previously trained on rec01..04; this is classifier group CV, not full-pipeline independence.",
+    "This is exploratory development after repeated inspection; no final untouched test accuracy claim.",
+    "Both normal-before and repaired-normal states are included, but adjacent frames are correlated.",
+    "No deployable classifier or V50 server modifications are included."
+  ]
+}

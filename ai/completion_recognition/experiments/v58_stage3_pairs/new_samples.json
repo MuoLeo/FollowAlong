@@ -1,0 +1,200 @@
+[
+  {
+    "image": "pair_frames/pair1_normal_before_0.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 18,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_normal_before_1.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 19,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_normal_before_2.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 20,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_error_missing_yellow_0.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 28,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_error_missing_yellow_1.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 29,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_error_missing_yellow_2.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 30,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_normal_after_0.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 38,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_normal_after_1.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 39,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair1_normal_after_2.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 40,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_normal_before_0.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 17.5,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_normal_before_1.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 18.5,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_normal_before_2.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 19.5,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_error_missing_yellow_0.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 26,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_error_missing_yellow_1.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 27,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_error_missing_yellow_2.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 28,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_normal_after_0.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 34,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_normal_after_1.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 35,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "pair_frames/pair2_normal_after_2.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "stage03_pair_shared_capture_group",
+    "stage": 3,
+    "time": 36,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  }
+]

@@ -1,0 +1,596 @@
+{
+  "version": "V59_COMPONENT_OFFLINE",
+  "automatic_target_localization": false,
+  "manual_boxes_required": true,
+  "general_assembly_error_verifier": false,
+  "deployable": false,
+  "server_integration": false,
+  "rec06_used": false,
+  "independent_final_test": false,
+  "tasks": {
+    "stage3_yellow_block_presence": {
+      "frames": 44,
+      "normal_frames": 36,
+      "error_frames": 8,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "error_precision": 1.0,
+      "error_recall": 1.0,
+      "error_f1": 1.0,
+      "confusion_matrix_normal_error": [
+        [
+          36,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "normal_false_alarms": 0,
+      "missed_errors": 0,
+      "folds": [
+        {
+          "group": "error_stage03_02.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 2,
+          "normal_frames": 0,
+          "error_frames": 2,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 1.0,
+          "error_recall": 1.0,
+          "error_f1": 1.0,
+          "confusion_matrix_normal_error": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "fullstage_val_01.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "fullstage_val_02.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "new_pairs_shared_capture",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 18,
+          "normal_frames": 12,
+          "error_frames": 6,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "error_precision": 1.0,
+          "error_recall": 1.0,
+          "error_f1": 1.0,
+          "confusion_matrix_normal_error": [
+            [
+              12,
+              0
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "outofview_showcase_01.mp4",
+          "training_threshold": 0.006726210924081072,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec01_front.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec02_front.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec03_front.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec04_front.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec05_front.mp4",
+          "training_threshold": 0.0066954414660003025,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        }
+      ],
+      "new_capture_heldout": {
+        "frames": 18,
+        "normal_frames": 12,
+        "error_frames": 6,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "error_precision": 1.0,
+        "error_recall": 1.0,
+        "error_f1": 1.0,
+        "confusion_matrix_normal_error": [
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "missed_errors": 0
+      },
+      "score_type": "yellow_fraction_threshold_minus_observed_fraction_not_probability"
+    },
+    "stage5_rubber_tire_presence": {
+      "frames": 45,
+      "normal_frames": 36,
+      "error_frames": 9,
+      "accuracy": 0.7777777777777778,
+      "balanced_accuracy": 0.4861111111111111,
+      "error_precision": 0.0,
+      "error_recall": 0.0,
+      "error_f1": 0.0,
+      "confusion_matrix_normal_error": [
+        [
+          35,
+          1
+        ],
+        [
+          9,
+          0
+        ]
+      ],
+      "normal_false_alarms": 1,
+      "missed_errors": 9,
+      "folds": [
+        {
+          "group": "error_stage05_01.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 0,
+          "error_frames": 3,
+          "accuracy": 0.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 3
+        },
+        {
+          "group": "fullstage_val_01.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "fullstage_val_02.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "new_pairs_shared_capture",
+          "training_threshold": 0.5,
+          "frames": 18,
+          "normal_frames": 12,
+          "error_frames": 6,
+          "accuracy": 0.6666666666666666,
+          "balanced_accuracy": 0.5,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              12,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 6
+        },
+        {
+          "group": "outofview_showcase_01.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 0.6666666666666666,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 1,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec01_front.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec02_front.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec03_front.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec04_front.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        },
+        {
+          "group": "rec05_front.mp4",
+          "training_threshold": 0.5,
+          "frames": 3,
+          "normal_frames": 3,
+          "error_frames": 0,
+          "accuracy": 1.0,
+          "balanced_accuracy": null,
+          "error_precision": 0.0,
+          "error_recall": 0.0,
+          "error_f1": 0.0,
+          "confusion_matrix_normal_error": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "normal_false_alarms": 0,
+          "missed_errors": 0
+        }
+      ],
+      "new_capture_heldout": {
+        "frames": 18,
+        "normal_frames": 12,
+        "error_frames": 6,
+        "accuracy": 0.6666666666666666,
+        "balanced_accuracy": 0.5,
+        "error_precision": 0.0,
+        "error_recall": 0.0,
+        "error_f1": 0.0,
+        "confusion_matrix_normal_error": [
+          [
+            12,
+            0
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "missed_errors": 6
+      },
+      "score_type": "uncalibrated_classifier_error_score"
+    }
+  },
+  "notes": [
+    "Scopes differ from V56/V58; do not compare overall accuracy as the same task.",
+    "Only Stage3 visible yellow-block absence and Stage5 visible rubber-tire absence are labeled here.",
+    "Reversed black parts, arbitrary malformed cars and other defect types are excluded, not relabeled normal.",
+    "Manual per-video/stage ROIs were visually reviewed; automatic camera localization/quality gating remains absent.",
+    "All four newly paired clips are grouped together to avoid reuse of their capture conditions across train/test.",
+    "Threshold/classifier fit uses outer training groups only; these are exploratory diagnostics after seeing prior results.",
+    "Pixel thresholds do not establish correct block position/orientation. A present yellow block alone cannot mean assembly is correct.",
+    "Adjacent frames are correlated. Only two capture groups contain each component error type."
+  ]
+}
