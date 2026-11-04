@@ -646,3 +646,250 @@ h1 {
     font-size: 24px;
   }
 }
+
+
+/* ========================================
+   Timeline Boundary Editor
+   ======================================== */
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.section-heading h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+#stepCount,
+#timelineDuration {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.timeline-editor {
+  margin-top: 28px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fbfcff;
+}
+
+.timeline-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.timeline-heading h3 {
+  margin: 0 0 7px;
+  font-size: 17px;
+}
+
+.timeline-heading p,
+.timeline-help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.timeline-ruler {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 2px 7px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.timeline-track {
+  position: relative;
+  width: 100%;
+  height: 76px;
+  overflow: visible;
+  border-radius: 10px;
+  background: #e9edf5;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.timeline-segment {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  min-width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  overflow: hidden;
+  padding: 5px 3px;
+  color: #29265f;
+  background: #c7c5ff;
+  border-right: 1px solid rgba(255,255,255,0.9);
+}
+
+.timeline-segment:nth-of-type(even) {
+  background: #d8e4ff;
+  color: #263b69;
+}
+
+.timeline-segment-label {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.timeline-segment-time {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+.timeline-boundary {
+  position: absolute;
+  z-index: 3;
+  top: -8px;
+  bottom: -8px;
+  width: 18px;
+  padding: 0;
+  transform: translateX(-50%);
+  border: 0;
+  background: transparent;
+  cursor: ew-resize;
+  touch-action: none;
+}
+
+.timeline-boundary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 8px;
+  width: 3px;
+  border-radius: 4px;
+  background: #4338ca;
+  box-shadow: 0 0 0 1px white;
+}
+
+.timeline-boundary::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 13px;
+  height: 13px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #4338ca;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+}
+
+.timeline-boundary:hover::before,
+.timeline-boundary.selected::before {
+  width: 5px;
+  left: 7px;
+  background: #dc2626;
+}
+
+.timeline-boundary.selected::after {
+  background: #dc2626;
+  transform: scale(1.15);
+}
+
+.timeline-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 17px;
+}
+
+#boundaryHint {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#deleteBoundaryBtn {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  background: #fff1f2;
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#deleteBoundaryBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.timeline-help {
+  margin-top: 10px;
+}
+
+.step-item {
+  min-width: 0;
+}
+
+.step-duration {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.step-item .start-time,
+.step-item .end-time {
+  background: #f1f3f8;
+  color: #626a7a;
+  cursor: not-allowed;
+}
+
+@media (max-width: 900px) {
+  .editor-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .timeline-editor {
+    padding: 13px;
+  }
+
+  .timeline-heading {
+    flex-direction: column;
+  }
+
+  .timeline-track {
+    height: 66px;
+  }
+
+  .timeline-segment-label {
+    font-size: 10px;
+  }
+
+  .timeline-segment-time {
+    font-size: 8px;
+  }
+
+  .timeline-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

@@ -16,170 +16,68 @@
   </header>
 
   <main class="editor-page">
-
     <section class="editor-layout">
-
-      <!-- 영상 미리보기 -->
       <div class="preview-panel">
         <div class="panel-title">분석된 레고 제작 영상</div>
-
         <video id="previewVideo" controls></video>
-
         <div id="videoPlaceholder" class="video-placeholder">
           <div>🎬</div>
           <p>분석된 영상이 이곳에 표시됩니다.</p>
         </div>
+
+        <!-- 타임라인 편집 영역 -->
+        <section class="timeline-editor">
+          <div class="timeline-heading">
+            <div>
+              <h3>제작 단계 타임라인</h3>
+              <p>타임라인을 더블클릭해 경계선을 추가하고, 경계선을 드래그해 시간을 조절하세요.</p>
+            </div>
+            <span id="timelineDuration">전체 00:55.73</span>
+          </div>
+
+          <div class="timeline-ruler" aria-hidden="true">
+            <span>00:00</span>
+            <span>영상 끝</span>
+          </div>
+
+          <div id="timelineTrack" class="timeline-track"
+               aria-label="제작 단계 타임라인. 더블클릭하여 단계를 나눌 수 있습니다.">
+          </div>
+
+          <div class="timeline-actions">
+            <span id="boundaryHint">경계선을 선택하면 위치를 이동하거나 삭제할 수 있습니다.</span>
+            <button type="button" id="deleteBoundaryBtn" disabled>선택한 경계선 삭제</button>
+          </div>
+          <p class="timeline-help">
+            각 단계는 최소 1초 이상이어야 합니다. 경계선을 삭제하면 양옆 단계가 하나로 합쳐집니다.
+          </p>
+        </section>
       </div>
 
-      <!-- 제작 단계 편집 -->
       <aside class="tools-panel">
-
         <h2>제작 단계 편집</h2>
-
         <p class="muted">
-          서버가 자동으로 분석한 제작 단계를 확인하고 수정할 수 있습니다.
+          서버가 자동으로 분석한 제작 단계를 확인하고 제목을 수정할 수 있습니다.
+          단계의 시작·종료 시간은 타임라인 경계선을 조작하면 자동으로 변경됩니다.
         </p>
 
-        <!-- 단계 목록 -->
         <div class="section-heading">
           <h3>제작 단계 목록</h3>
           <span id="stepCount">총 3단계</span>
         </div>
 
-        <div id="stepList">
-
-          <!-- STEP 1 -->
-          <div class="step-item" data-step-id="step_001">
-            <div class="step-header">
-              <strong>STEP 1</strong>
-              <span class="review-status">검토 필요</span>
-            </div>
-
-            <input
-              type="text"
-              class="step-title"
-              value="단계 후보 1"
-              placeholder="단계 제목"
-            >
-
-            <p class="step-transcript">
-              먼저 머리의 눈을 조립합니다.
-            </p>
-
-            <div class="step-time">
-              <label>
-                시작 시간
-                <input type="number" class="start-time"
-                  value="0" min="0" step="0.01">
-              </label>
-
-              <label>
-                종료 시간
-                <input type="number" class="end-time"
-                  value="20.03" min="0" step="0.01">
-              </label>
-            </div>
-
-            <button type="button" class="delete-step-btn">
-              단계 삭제
-            </button>
-          </div>
-
-          <!-- STEP 2 -->
-          <div class="step-item" data-step-id="step_002">
-            <div class="step-header">
-              <strong>STEP 2</strong>
-              <span class="review-status">검토 필요</span>
-            </div>
-
-            <input
-              type="text"
-              class="step-title"
-              value="단계 후보 2"
-              placeholder="단계 제목"
-            >
-
-            <p class="step-transcript">
-              다음으로 머리와 부리를 조립합니다.
-            </p>
-
-            <div class="step-time">
-              <label>
-                시작 시간
-                <input type="number" class="start-time"
-                  value="20.03" min="0" step="0.01">
-              </label>
-
-              <label>
-                종료 시간
-                <input type="number" class="end-time"
-                  value="36.05" min="0" step="0.01">
-              </label>
-            </div>
-
-            <button type="button" class="delete-step-btn">
-              단계 삭제
-            </button>
-          </div>
-
-          <!-- STEP 3 -->
-          <div class="step-item" data-step-id="step_003">
-            <div class="step-header">
-              <strong>STEP 3</strong>
-              <span class="review-status">검토 필요</span>
-            </div>
-
-            <input
-              type="text"
-              class="step-title"
-              value="단계 후보 3"
-              placeholder="단계 제목"
-            >
-
-            <p class="step-transcript">
-              마지막으로 머리와 몸통을 조립합니다.
-            </p>
-
-            <div class="step-time">
-              <label>
-                시작 시간
-                <input type="number" class="start-time"
-                  value="36.05" min="0" step="0.01">
-              </label>
-
-              <label>
-                종료 시간
-                <input type="number" class="end-time"
-                  value="55.733333" min="0" step="0.01">
-              </label>
-            </div>
-
-            <button type="button" class="delete-step-btn">
-              단계 삭제
-            </button>
-          </div>
-
-        </div>
-
-        <!-- 단계 추가 -->
-        <button id="addStepBtn" class="tool-btn">
-          + 제작 단계 추가
-        </button>
+        <div id="stepList"></div>
 
         <div class="tool-note">
-          자동 분석된 단계는 검토 후 수정할 수 있습니다.
-          단계 추가 및 삭제 사항은 최종 확인 시 서버로 전달됩니다.
+          타임라인에서 구간을 더블클릭하면 해당 구간만 둘로 나뉩니다.
+          경계선 삭제는 영상을 삭제하는 것이 아니라 인접한 두 단계를 하나로 합치는 기능입니다.
         </div>
 
-        <!-- 최종 확인 -->
-        <button id="confirmEditBtn" class="btn primary full">
+        <button id="confirmEditBtn" class="btn primary full" type="button">
           편집 확인 및 휴대폰 연결
         </button>
-
       </aside>
-
     </section>
-
   </main>
 
   <script src="./script.js"></script>
