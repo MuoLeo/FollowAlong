@@ -268,6 +268,7 @@ if (document.getElementById("stepList")) {
 
     steps.forEach((step, index) => {
       const item = document.createElement("article");
+      const transcriptInput = item.querySelector(".transcript-input");
       item.className = "step-item";
       item.innerHTML = `
         <div class="step-header">
@@ -304,10 +305,9 @@ if (document.getElementById("stepList")) {
         </div>
       `;
       
-      const transcriptInput = item.querySelector(".transcript-input");
       transcriptInput.value = step.transcript_text || "";
       transcriptInput.addEventListener("input", (e) => {
-          step.transcript_text = e.target.value;
+          steps[index].transcript_text = e.target.value;
       });
 
       item.querySelector(".step-title").addEventListener("input", event => {
