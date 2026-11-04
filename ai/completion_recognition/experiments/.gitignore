@@ -1,0 +1,12 @@
+**/frames/
+**/new_frames/
+**/pair_frames/
+**/normal_frames/
+**/data/
+**/*.npz
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.zip
+**/results/
+**/__pycache__/
