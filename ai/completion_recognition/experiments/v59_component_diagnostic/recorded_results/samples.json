@@ -1,0 +1,1856 @@
+[
+  {
+    "image": "frames/000_error_stage05_01_s5.jpg",
+    "video": "error_stage05_01.mp4",
+    "stage": 5,
+    "error": 1,
+    "time": 177.0077,
+    "box_xyxy_normalized": [
+      0.43,
+      0.55,
+      0.84,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "error_stage05_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.55,
+      0.84,
+      1.0
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/001_error_stage05_01_s5.jpg",
+    "video": "error_stage05_01.mp4",
+    "stage": 5,
+    "error": 1,
+    "time": 178.9993,
+    "box_xyxy_normalized": [
+      0.43,
+      0.55,
+      0.84,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "error_stage05_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.55,
+      0.84,
+      1.0
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/002_error_stage05_01_s5.jpg",
+    "video": "error_stage05_01.mp4",
+    "stage": 5,
+    "error": 1,
+    "time": 180.9909,
+    "box_xyxy_normalized": [
+      0.43,
+      0.55,
+      0.84,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "error_stage05_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.55,
+      0.84,
+      1.0
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/003_error_stage03_02_s3.jpg",
+    "video": "error_stage03_02.mp4",
+    "stage": 3,
+    "error": 1,
+    "time": 72.85,
+    "box_xyxy_normalized": [
+      0.45,
+      0.62,
+      0.79,
+      0.95
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "error_stage03_02.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.45,
+      0.62,
+      0.79,
+      0.95
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/004_error_stage03_02_s3.jpg",
+    "video": "error_stage03_02.mp4",
+    "stage": 3,
+    "error": 1,
+    "time": 76.0,
+    "box_xyxy_normalized": [
+      0.45,
+      0.62,
+      0.79,
+      0.95
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "error_stage03_02.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.45,
+      0.62,
+      0.79,
+      0.95
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/005_outofview_showcase_01_s3.jpg",
+    "video": "outofview_showcase_01.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 73.11,
+    "box_xyxy_normalized": [
+      0.4,
+      0.53,
+      0.77,
+      0.96
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "outofview_showcase_01.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.4,
+      0.53,
+      0.77,
+      0.96
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/006_outofview_showcase_01_s3.jpg",
+    "video": "outofview_showcase_01.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 76.56,
+    "box_xyxy_normalized": [
+      0.4,
+      0.53,
+      0.77,
+      0.96
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "outofview_showcase_01.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.4,
+      0.53,
+      0.77,
+      0.96
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/007_outofview_showcase_01_s3.jpg",
+    "video": "outofview_showcase_01.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 80.01,
+    "box_xyxy_normalized": [
+      0.4,
+      0.53,
+      0.77,
+      0.96
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "outofview_showcase_01.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.4,
+      0.53,
+      0.77,
+      0.96
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/008_outofview_showcase_01_s5.jpg",
+    "video": "outofview_showcase_01.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 158.1119,
+    "box_xyxy_normalized": [
+      0.4,
+      0.5,
+      0.84,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "outofview_showcase_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.5,
+      0.84,
+      1.0
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/009_outofview_showcase_01_s5.jpg",
+    "video": "outofview_showcase_01.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 160.2147,
+    "box_xyxy_normalized": [
+      0.4,
+      0.5,
+      0.84,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "outofview_showcase_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.5,
+      0.84,
+      1.0
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/010_outofview_showcase_01_s5.jpg",
+    "video": "outofview_showcase_01.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 162.3176,
+    "box_xyxy_normalized": [
+      0.4,
+      0.5,
+      0.84,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "outofview_showcase_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.5,
+      0.84,
+      1.0
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/011_fullstage_val_01_s3.jpg",
+    "video": "fullstage_val_01.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 91.5,
+    "box_xyxy_normalized": [
+      0.55,
+      0.53,
+      0.84,
+      0.88
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_01.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.55,
+      0.53,
+      0.84,
+      0.88
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/012_fullstage_val_01_s3.jpg",
+    "video": "fullstage_val_01.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 92.5,
+    "box_xyxy_normalized": [
+      0.55,
+      0.53,
+      0.84,
+      0.88
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_01.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.55,
+      0.53,
+      0.84,
+      0.88
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/013_fullstage_val_01_s3.jpg",
+    "video": "fullstage_val_01.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 93.5,
+    "box_xyxy_normalized": [
+      0.55,
+      0.53,
+      0.84,
+      0.88
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_01.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.55,
+      0.53,
+      0.84,
+      0.88
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/014_fullstage_val_01_s5.jpg",
+    "video": "fullstage_val_01.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 198.5,
+    "box_xyxy_normalized": [
+      0.54,
+      0.48,
+      0.87,
+      0.89
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.54,
+      0.48,
+      0.87,
+      0.89
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/015_fullstage_val_01_s5.jpg",
+    "video": "fullstage_val_01.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 199.5,
+    "box_xyxy_normalized": [
+      0.54,
+      0.48,
+      0.87,
+      0.89
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.54,
+      0.48,
+      0.87,
+      0.89
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/016_fullstage_val_01_s5.jpg",
+    "video": "fullstage_val_01.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 200.5,
+    "box_xyxy_normalized": [
+      0.54,
+      0.48,
+      0.87,
+      0.89
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_01.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.54,
+      0.48,
+      0.87,
+      0.89
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/017_fullstage_val_02_s3.jpg",
+    "video": "fullstage_val_02.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 78.5,
+    "box_xyxy_normalized": [
+      0.46,
+      0.5,
+      0.86,
+      0.9
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_02.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.46,
+      0.5,
+      0.86,
+      0.9
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/018_fullstage_val_02_s3.jpg",
+    "video": "fullstage_val_02.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 79.5,
+    "box_xyxy_normalized": [
+      0.46,
+      0.5,
+      0.86,
+      0.9
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_02.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.46,
+      0.5,
+      0.86,
+      0.9
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/019_fullstage_val_02_s3.jpg",
+    "video": "fullstage_val_02.mp4",
+    "stage": 3,
+    "error": 0,
+    "time": 80.5,
+    "box_xyxy_normalized": [
+      0.46,
+      0.5,
+      0.86,
+      0.9
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_02.mp4",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.46,
+      0.5,
+      0.86,
+      0.9
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/020_fullstage_val_02_s5.jpg",
+    "video": "fullstage_val_02.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 168.5,
+    "box_xyxy_normalized": [
+      0.39,
+      0.5,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_02.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.39,
+      0.5,
+      0.8,
+      0.98
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/021_fullstage_val_02_s5.jpg",
+    "video": "fullstage_val_02.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 169.5,
+    "box_xyxy_normalized": [
+      0.39,
+      0.5,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_02.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.39,
+      0.5,
+      0.8,
+      0.98
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/022_fullstage_val_02_s5.jpg",
+    "video": "fullstage_val_02.mp4",
+    "stage": 5,
+    "error": 0,
+    "time": 170.5,
+    "box_xyxy_normalized": [
+      0.39,
+      0.5,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "group": "fullstage_val_02.mp4",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.39,
+      0.5,
+      0.8,
+      0.98
+    ],
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "image": "frames/023_rec01_front_s3.jpg",
+    "video": "rec01_front.mp4",
+    "group": "rec01_front.mp4",
+    "stage": 3,
+    "time": 82,
+    "error": 0,
+    "source": "rec01_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/024_rec01_front_s3.jpg",
+    "video": "rec01_front.mp4",
+    "group": "rec01_front.mp4",
+    "stage": 3,
+    "time": 82.5,
+    "error": 0,
+    "source": "rec01_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/025_rec01_front_s3.jpg",
+    "video": "rec01_front.mp4",
+    "group": "rec01_front.mp4",
+    "stage": 3,
+    "time": 83.0,
+    "error": 0,
+    "source": "rec01_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/026_rec01_front_s5.jpg",
+    "video": "rec01_front.mp4",
+    "group": "rec01_front.mp4",
+    "stage": 5,
+    "time": 189,
+    "error": 0,
+    "source": "rec01_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/027_rec01_front_s5.jpg",
+    "video": "rec01_front.mp4",
+    "group": "rec01_front.mp4",
+    "stage": 5,
+    "time": 189.5,
+    "error": 0,
+    "source": "rec01_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/028_rec01_front_s5.jpg",
+    "video": "rec01_front.mp4",
+    "group": "rec01_front.mp4",
+    "stage": 5,
+    "time": 190.0,
+    "error": 0,
+    "source": "rec01_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/029_rec02_front_s3.jpg",
+    "video": "rec02_front.mp4",
+    "group": "rec02_front.mp4",
+    "stage": 3,
+    "time": 77,
+    "error": 0,
+    "source": "rec02_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/030_rec02_front_s3.jpg",
+    "video": "rec02_front.mp4",
+    "group": "rec02_front.mp4",
+    "stage": 3,
+    "time": 77.5,
+    "error": 0,
+    "source": "rec02_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/031_rec02_front_s3.jpg",
+    "video": "rec02_front.mp4",
+    "group": "rec02_front.mp4",
+    "stage": 3,
+    "time": 78.0,
+    "error": 0,
+    "source": "rec02_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/032_rec02_front_s5.jpg",
+    "video": "rec02_front.mp4",
+    "group": "rec02_front.mp4",
+    "stage": 5,
+    "time": 177,
+    "error": 0,
+    "source": "rec02_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/033_rec02_front_s5.jpg",
+    "video": "rec02_front.mp4",
+    "group": "rec02_front.mp4",
+    "stage": 5,
+    "time": 177.5,
+    "error": 0,
+    "source": "rec02_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/034_rec02_front_s5.jpg",
+    "video": "rec02_front.mp4",
+    "group": "rec02_front.mp4",
+    "stage": 5,
+    "time": 178.0,
+    "error": 0,
+    "source": "rec02_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/035_rec03_front_s3.jpg",
+    "video": "rec03_front.mp4",
+    "group": "rec03_front.mp4",
+    "stage": 3,
+    "time": 84,
+    "error": 0,
+    "source": "rec03_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/036_rec03_front_s3.jpg",
+    "video": "rec03_front.mp4",
+    "group": "rec03_front.mp4",
+    "stage": 3,
+    "time": 84.5,
+    "error": 0,
+    "source": "rec03_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/037_rec03_front_s3.jpg",
+    "video": "rec03_front.mp4",
+    "group": "rec03_front.mp4",
+    "stage": 3,
+    "time": 85.0,
+    "error": 0,
+    "source": "rec03_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/038_rec03_front_s5.jpg",
+    "video": "rec03_front.mp4",
+    "group": "rec03_front.mp4",
+    "stage": 5,
+    "time": 194,
+    "error": 0,
+    "source": "rec03_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/039_rec03_front_s5.jpg",
+    "video": "rec03_front.mp4",
+    "group": "rec03_front.mp4",
+    "stage": 5,
+    "time": 194.5,
+    "error": 0,
+    "source": "rec03_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/040_rec03_front_s5.jpg",
+    "video": "rec03_front.mp4",
+    "group": "rec03_front.mp4",
+    "stage": 5,
+    "time": 195.0,
+    "error": 0,
+    "source": "rec03_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/041_rec04_front_s3.jpg",
+    "video": "rec04_front.mp4",
+    "group": "rec04_front.mp4",
+    "stage": 3,
+    "time": 84,
+    "error": 0,
+    "source": "rec04_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/042_rec04_front_s3.jpg",
+    "video": "rec04_front.mp4",
+    "group": "rec04_front.mp4",
+    "stage": 3,
+    "time": 84.5,
+    "error": 0,
+    "source": "rec04_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/043_rec04_front_s3.jpg",
+    "video": "rec04_front.mp4",
+    "group": "rec04_front.mp4",
+    "stage": 3,
+    "time": 85.0,
+    "error": 0,
+    "source": "rec04_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/044_rec04_front_s5.jpg",
+    "video": "rec04_front.mp4",
+    "group": "rec04_front.mp4",
+    "stage": 5,
+    "time": 180,
+    "error": 0,
+    "source": "rec04_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/045_rec04_front_s5.jpg",
+    "video": "rec04_front.mp4",
+    "group": "rec04_front.mp4",
+    "stage": 5,
+    "time": 180.5,
+    "error": 0,
+    "source": "rec04_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/046_rec04_front_s5.jpg",
+    "video": "rec04_front.mp4",
+    "group": "rec04_front.mp4",
+    "stage": 5,
+    "time": 181.0,
+    "error": 0,
+    "source": "rec04_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/047_rec05_front_s3.jpg",
+    "video": "rec05_front.mp4",
+    "group": "rec05_front.mp4",
+    "stage": 3,
+    "time": 92,
+    "error": 0,
+    "source": "rec05_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/048_rec05_front_s3.jpg",
+    "video": "rec05_front.mp4",
+    "group": "rec05_front.mp4",
+    "stage": 3,
+    "time": 92.5,
+    "error": 0,
+    "source": "rec05_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/049_rec05_front_s3.jpg",
+    "video": "rec05_front.mp4",
+    "group": "rec05_front.mp4",
+    "stage": 3,
+    "time": 93.0,
+    "error": 0,
+    "source": "rec05_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.65,
+      0.78,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/050_rec05_front_s5.jpg",
+    "video": "rec05_front.mp4",
+    "group": "rec05_front.mp4",
+    "stage": 5,
+    "time": 195,
+    "error": 0,
+    "source": "rec05_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/051_rec05_front_s5.jpg",
+    "video": "rec05_front.mp4",
+    "group": "rec05_front.mp4",
+    "stage": 5,
+    "time": 195.5,
+    "error": 0,
+    "source": "rec05_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/052_rec05_front_s5.jpg",
+    "video": "rec05_front.mp4",
+    "group": "rec05_front.mp4",
+    "stage": 5,
+    "time": 196.0,
+    "error": 0,
+    "source": "rec05_front(2).mp4",
+    "annotation": "assistant_visually_reviewed_visible_normal_candidate",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.4,
+      0.6,
+      0.86,
+      1.0
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/053_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 18,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/054_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 19,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/055_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 20,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/056_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 28,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/057_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 29,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/058_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 30,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/059_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 38,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/060_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 39,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/061_stage03_pair_01_s3.jpg",
+    "video": "stage03_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 40,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/062_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 17.5,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/063_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 18.5,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/064_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 19.5,
+    "error": 0,
+    "state": "normal_before",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/065_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 26,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/066_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 27,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/067_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 28,
+    "error": 1,
+    "state": "error_missing_yellow",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/068_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 34,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/069_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 35,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "image": "frames/070_stage03_pair_02_s3.jpg",
+    "video": "stage03_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 3,
+    "time": 36,
+    "error": 0,
+    "state": "normal_after",
+    "annotation": "assistant_visual_review_visible_state",
+    "timestamp_type": "ffmpeg_requested_seek_seconds",
+    "task": "stage3_yellow_block_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.8,
+      0.98
+    ],
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 55,
+    "error": 0,
+    "state": "normal_before",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_55.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 56,
+    "error": 0,
+    "state": "normal_before",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_56.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 57,
+    "error": 0,
+    "state": "normal_before",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_57.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 77,
+    "error": 1,
+    "state": "error_rubber_removed",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_77.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 78,
+    "error": 1,
+    "state": "error_rubber_removed",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_78.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 79,
+    "error": 1,
+    "state": "error_rubber_removed",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_79.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 115,
+    "error": 0,
+    "state": "normal_after",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_115.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 116,
+    "error": 0,
+    "state": "normal_after",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_116.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_01.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 117,
+    "error": 0,
+    "state": "normal_after",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_1_117.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 57,
+    "error": 0,
+    "state": "normal_before",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_57.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 58,
+    "error": 0,
+    "state": "normal_before",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_58.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 59,
+    "error": 0,
+    "state": "normal_before",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_59.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 86,
+    "error": 1,
+    "state": "error_rubber_removed",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_86.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 87,
+    "error": 1,
+    "state": "error_rubber_removed",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_87.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 88,
+    "error": 1,
+    "state": "error_rubber_removed",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_88.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 122,
+    "error": 0,
+    "state": "normal_after",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_122.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 123,
+    "error": 0,
+    "state": "normal_after",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_123.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  },
+  {
+    "video": "stage05_pair_02.mp4",
+    "group": "new_pairs_shared_capture",
+    "stage": 5,
+    "time": 124,
+    "error": 0,
+    "state": "normal_after",
+    "task": "stage5_rubber_tire_presence",
+    "box": [
+      0.43,
+      0.6,
+      0.84,
+      1.0
+    ],
+    "image": "frames/new5_2_124.jpg",
+    "box_source": "assistant_manual_fixed_per_video_stage",
+    "label_scope": "specific_visible_component_only",
+    "timestamp_type": "ffmpeg_requested_seek_seconds"
+  }
+]

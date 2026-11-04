@@ -1,0 +1,37 @@
+{
+  "version": "4.9",
+  "created_utc": "2026-11-03T17:15:52.558208+00:00",
+  "test_video": "fullstage_val_02",
+  "ground_truth_seconds": {
+    "1": 24.0,
+    "2": 50.0,
+    "3": 77.0,
+    "4": 107.0,
+    "5": 167.0
+  },
+  "test_opened_at_lock": false,
+  "training": false,
+  "selection_source": "V4.8 development rec05 + fullstage_val_01; selected before test",
+  "policy": {
+    "temporal_threshold": 0.5,
+    "rider_threshold": 0.5,
+    "consecutive": 3,
+    "stage5_rider_required": true,
+    "frame_interval": 0.5,
+    "history_frames": 5
+  },
+  "roi": [
+    0.45,
+    0.48,
+    0.9,
+    0.96
+  ],
+  "temporal_sha256": "e0317fad6ce5074fdb6acb98b23ebf25b5d7f56a20042a3da9415a43932c2592",
+  "verifier_sha256": "40b8c9f9f8b11cd157c9de76086aeabef39de7de9be26d97dfb9b07b5f944e4c",
+  "encoder_file_sha256": "69c33ec5e8c0a040fabf9f203a9cfb7c21effd10a52980b9e0bd8d49789e256d",
+  "encoder_state_sha256": "86c1d4b81fe1d2b6d00cc8ca2ef4af6480e9a826e5e5d946d0112d0c430bfc76",
+  "prototype_sha256": "0c8ca50bbaf2e2b6f856601cf8017cac4ffcf1eb93ad4a5d6e520bb699cba8d4",
+  "primary_report": "Chained causal replay with simulated immediate server ACK; zero premature and all5 reached, delays reported separately",
+  "secondary_report": "Teacher-forced stage intervals through supplied completion+5s; late/missed distinct from chained unreached",
+  "limitations": "One successful assembly video; fixed ROI; no general error verification, no server integration or live timing claim"
+}

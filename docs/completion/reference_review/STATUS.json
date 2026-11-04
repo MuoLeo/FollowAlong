@@ -1,0 +1,9 @@
+{
+  "source_recording": "fullstage_val_01",
+  "development_reference_only": true,
+  "all_labels_pending": true,
+  "model_trained": false,
+  "server_modified": false,
+  "test_video02_used": false,
+  "extraction": "ffmpeg requested times from supplied completion +0.5,+1,+1.5 seconds"
+}

@@ -1,0 +1,231 @@
+{
+  "version": "V56_NORMAL_EXPANSION_OFFLINE",
+  "normal_frames": 120,
+  "error_frames": 15,
+  "recordings": 14,
+  "normal_recordings": 8,
+  "error_recordings": 6,
+  "rec06_used": false,
+  "encoder_sha256": "69c33ec5e8c0a040fabf9f203a9cfb7c21effd10a52980b9e0bd8d49789e256d",
+  "threshold": 0.5,
+  "baseline_v55": {
+    "accuracy": 0.8833333333333333,
+    "balanced_accuracy": 0.9222222222222223,
+    "error_precision": 0.6818181818181818,
+    "error_recall": 1.0,
+    "error_f1": 0.8108108108108109,
+    "normal_false_alarm_rate": 0.15555555555555556,
+    "confusion_matrix_normal_error": [
+      [
+        38,
+        7
+      ],
+      [
+        0,
+        15
+      ]
+    ],
+    "folds": [
+      {
+        "video": "error_stage01_02_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_02.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage04_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage05_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage_unkown_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "fullstage_val_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "fullstage_val_02.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "outofview_showcase_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 7,
+        "missed_errors": 0
+      }
+    ]
+  },
+  "expanded_group_cv": {
+    "accuracy": 0.9481481481481482,
+    "balanced_accuracy": 0.9416666666666667,
+    "error_precision": 0.7,
+    "error_recall": 0.9333333333333333,
+    "error_f1": 0.8,
+    "normal_false_alarm_rate": 0.05,
+    "confusion_matrix_normal_error": [
+      [
+        114,
+        6
+      ],
+      [
+        1,
+        14
+      ]
+    ],
+    "folds": [
+      {
+        "video": "error_stage01_02_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage03_02.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage04_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage05_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 3,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "error_stage_unkown_01.mp4",
+        "normal_frames": 0,
+        "error_frames": 2,
+        "false_alarms": 0,
+        "missed_errors": 1
+      },
+      {
+        "video": "fullstage_val_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "fullstage_val_02.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "outofview_showcase_01.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 3,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec01_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec02_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec03_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec04_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 0,
+        "missed_errors": 0
+      },
+      {
+        "video": "rec05_front.mp4",
+        "normal_frames": 15,
+        "error_frames": 0,
+        "false_alarms": 3,
+        "missed_errors": 0
+      }
+    ]
+  },
+  "original_60_subset_after_expansion": {
+    "normal_frames": 45,
+    "error_frames": 15,
+    "normal_false_alarms": 3,
+    "missed_errors": 1
+  },
+  "server_integration": false,
+  "deployable": false,
+  "independent_final_test": false,
+  "stage2_error_evaluation_available": false,
+  "notes": [
+    "Fixed V55 classifier, C=0.1, threshold=0.5; no hyperparameter search.",
+    "Each outer fold holds out one entire video; adjacent frames are correlated.",
+    "Frozen encoder was previously trained on rec01..04; this is classifier group CV, not full-pipeline independence.",
+    "rec06 is reserved and never loaded by this package; it has previously been inspected in completion experiments.",
+    "Normal-only rec06 cannot validate error recall.",
+    "Prior experiment observations informed normal-data expansion; no untouched final accuracy claim.",
+    "No automatic quality gate, server integration, or production verifier is provided."
+  ]
+}

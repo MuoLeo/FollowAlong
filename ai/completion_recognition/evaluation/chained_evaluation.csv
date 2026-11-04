@@ -1,0 +1,6 @@
+stage,ground_truth_seconds,confirmation_seconds,delay_seconds,status,confirmed_within_1_5s,confirmed_within_3s,confirmed_within_5s
+1,24.0,25.5,1.5,confirmed_after_completion,True,True,True
+2,50.0,50.0,0.0,confirmed_after_completion,True,True,True
+3,77.0,78.5,1.5,confirmed_after_completion,True,True,True
+4,107.0,108.5,1.5,confirmed_after_completion,True,True,True
+5,167.0,168.5,1.5,confirmed_after_completion,True,True,True

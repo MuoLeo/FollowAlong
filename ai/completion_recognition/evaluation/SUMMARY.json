@@ -1,0 +1,30 @@
+{
+  "test_recording": "fullstage_val_02",
+  "policy_lock_sha256": "8030f884138381317994c29d728c29a3680ec7d83eb5a18ad1e0da710c4a78ee",
+  "confirmed_stages": 5,
+  "premature_stages": 0,
+  "all_stages_reached": true,
+  "zero_premature_and_all_five_reached": true,
+  "delays_seconds": {
+    "1": 1.5,
+    "2": 0.0,
+    "3": 1.5,
+    "4": 1.5,
+    "5": 1.5
+  },
+  "teacher_forced_missed": 0,
+  "teacher_forced_premature": 0,
+  "final_test_opened": true,
+  "model_retrained": false,
+  "policy_tuned_on_test": false,
+  "deployment_approved": false,
+  "actual_general_error_model": false,
+  "completion_score_is_progress_percent": false,
+  "limitations": [
+    "One successful recording; no generalization guarantee",
+    "Fixed ROI camera layout",
+    "Offline immediate ACK; live server and retry workflow not tested",
+    "No general misassembly/hand/occlusion model",
+    "Point annotations supplied in seconds; no test boundary relabeling"
+  ]
+}
