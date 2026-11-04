@@ -893,3 +893,26 @@ h1 {
     flex-direction: column;
   }
 }
+
+.step-transcript {
+    margin-top: 12px;
+}
+
+.step-transcript label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.transcript-input {
+    width: 100%;
+    min-height: 75px;
+    padding: 10px;
+    resize: vertical;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}

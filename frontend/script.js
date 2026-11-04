@@ -267,6 +267,14 @@ if (document.getElementById("stepList")) {
 
     steps.forEach((step, index) => {
       const item = document.createElement("article");
+      const transcriptInput = document.createElement("textarea");
+      transcriptInput.className = "transcript-input";
+      transcriptInput.value = step.transcript_text || "";
+      transcriptInput.placeholder = "음성 인식 내용을 입력하세요.";
+
+      transcriptInput.addEventListener("input", (e) => {
+          step.transcript_text = e.target.value;
+      });
       item.className = "step-item";
       item.innerHTML = `
         <div class="step-header">
@@ -282,10 +290,14 @@ if (document.getElementById("stepList")) {
           value="${escapeHTML(step.title || "")}"
           placeholder="단계 제목"
         >
-
-        <p class="step-transcript">
-          ${escapeHTML(step.transcript_text || "음성 분석 내용이 없습니다.")}
-        </p>
+        
+        <div class="step-transcript">
+          <label>Transcript</label>
+          <textarea
+              class="transcript-input"
+              placeholder="음성 인식 내용을 입력하세요."
+          ></textarea>
+        </div>
 
         <div class="time-inputs">
           <div>
