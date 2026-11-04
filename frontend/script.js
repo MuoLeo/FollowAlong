@@ -132,7 +132,8 @@ if (document.getElementById("stepList")) {
   const MIN_STEP_SECONDS = 1;
   const EPSILON = 0.0001;
 
-  let steps = JSON.parse(sessionStorage.getItem("analysisSteps") || "null") || [
+  let steps = JSON.parse(sessionStorage.getItem("editedSteps") || 
+  sessionStorage.getItem("analysisSteps") || "null") || [
     {
       step_id: "step_001",
       order: 1,
