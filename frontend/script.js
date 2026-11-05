@@ -540,12 +540,6 @@ if (document.getElementById("stepList")) {
     }
   });
 
-  function renderAll() {
-    normalizeSteps();
-    renderStepList();
-    renderTimeline();
-  }
-
   // 편집 확인: 연속 구간 / 최소 길이 검사 후 저장
   confirmEditBtn.addEventListener("click", () => {
     normalizeSteps();
@@ -580,6 +574,12 @@ if (document.getElementById("stepList")) {
     alert("제작 단계 수정이 완료되었습니다.");
     window.location.href = "./connect.html";
   });
+  
+  function renderAll() {
+    normalizeSteps();
+    renderStepList();
+    renderTimeline();
+  }
 
   // 최초 화면 표시
   normalizeSteps();
