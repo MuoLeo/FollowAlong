@@ -138,9 +138,9 @@ if (document.getElementById("stepList")) {
       step_id: "step_001",
       order: 1,
       start_sec: 0,
-      end_sec: 20.03,
+      end_sec: 24.03,
       title: "단계 후보 1",
-      transcript_text: "먼저 머리의 눈을 조립합니다.",
+      transcript_text: "먼저 인물을 조립합니다.",
       transcript_segment_ids: [0],
       boundary_reason: "video_start",
       needs_review: true,
@@ -149,10 +149,10 @@ if (document.getElementById("stepList")) {
     {
       step_id: "step_002",
       order: 2,
-      start_sec: 20.03,
-      end_sec: 36.05,
+      start_sec: 24.03,
+      end_sec: 49.18,
       title: "단계 후보 2",
-      transcript_text: "다음으로 머리와 부리를 조립합니다.",
+      transcript_text: "다음으로 오토바이에 토대를 만듭니다.",
       transcript_segment_ids: [1],
       boundary_reason: "transition_phrase",
       needs_review: true,
@@ -161,11 +161,35 @@ if (document.getElementById("stepList")) {
     {
       step_id: "step_003",
       order: 3,
-      start_sec: 36.05,
-      end_sec: 55.73,
+      start_sec: 49.18,
+      end_sec: 78.05,
       title: "단계 후보 3",
-      transcript_text: "마지막으로 머리와 몸통을 조립합니다.",
+      transcript_text: "오토바이에 뒷부분을 조립합니다.",
       transcript_segment_ids: [2],
+      boundary_reason: "transition_phrase",
+      needs_review: true,
+      target_state_id: null
+    },
+    {
+      step_id: "step_004",
+      order: 4,
+      start_sec: 78.05,
+      end_sec: 107.23,
+      title: "단계 후보 4",
+      transcript_text: "운전대와 장신구를 달 부분을 조립합니다.",
+      transcript_segment_ids: [3],
+      boundary_reason: "transition_phrase",
+      needs_review: true,
+      target_state_id: null
+    },
+    {
+      step_id: "step_005",
+      order: 5,
+      start_sec: 107.23,
+      end_sec: 172.01,
+      title: "단계 후보 5",
+      transcript_text: "장신구와 바퀴를 조립합니다.",
+      transcript_segment_ids: [4],
       boundary_reason: "transition_phrase",
       needs_review: true,
       target_state_id: null
@@ -180,7 +204,8 @@ if (document.getElementById("stepList")) {
   let draggingBoundaryIndex = null;
 
   // 영상 미리보기
-  const savedUrl = sessionStorage.getItem("uploadedVideoUrl");
+  //const savedUrl = sessionStorage.getItem("uploadedVideoUrl");
+  const savedUrl = "./videos/DummyTest.mp4";
   if (savedUrl && previewVideo) {
     previewVideo.src = savedUrl;
     previewVideo.classList.remove("hidden");
@@ -268,7 +293,6 @@ if (document.getElementById("stepList")) {
 
     steps.forEach((step, index) => {
       const item = document.createElement("article");
-      const transcriptInput = item.querySelector(".transcript-input");
       item.className = "step-item";
       item.innerHTML = `
         <div class="step-header">
@@ -305,9 +329,11 @@ if (document.getElementById("stepList")) {
         </div>
       `;
       
+      // innerHTML로 textarea를 만든 다음 찾아야 한다.
+      const transcriptInput = item.querySelector(".transcript-input");
       transcriptInput.value = step.transcript_text || "";
       transcriptInput.addEventListener("input", (e) => {
-          steps[index].transcript_text = e.target.value;
+        steps[index].transcript_text = e.target.value;
       });
 
       item.querySelector(".step-title").addEventListener("input", event => {

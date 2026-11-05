@@ -11,9 +11,8 @@
   const progressBar = document.getElementById("guideProgressBar");
   const timeLabel = document.getElementById("guideTimeLabel");
   const placeholder = document.getElementById("guideVideoPlaceholder");
-  const doneBtn = document.getElementById("resultDoneBtn");
-  const obscuredBtn = document.getElementById("resultObscuredBtn");
-  const wrongBtn = document.getElementById("resultWrongBtn");
+  const currentStepBtn = document.getElementById("currentStepBtn");
+  const nextStepBtn = document.getElementById("nextStepBtn");
   const backBtn = document.getElementById("backToConnectBtn");
 
   let steps = [];
@@ -101,37 +100,74 @@
     }
   });
 
-  doneBtn.addEventListener("click", () => {
+  function replayCurrentStep() {
     if (!steps.length) return;
-    completed.add(currentIndex);
-    if (currentIndex === steps.length - 1) {
-      renderList();
-      video.pause();
-      setStatus("모든 제작 단계를 완료했습니다! 🎉", "success");
-      return;
+
+    const start = Number(steps[currentIndex].start_sec);
+
+    video.pause();
+    video.currentTime = start;
+
+    const promise = video.play();
+    if (promise) {
+        promise.catch(() => {
+            setStatus("영상의 재생 버튼을 눌러 재생해주세요.", "warning");
+        });
     }
+
+    setStatus("현재 단계를 다시 재생합니다.", "neutral");
+  }
+
+  function goToNextStep() {
+    if (!steps.length) return;
+
+    if (currentIndex >= steps.length - 1) {
+        video.pause();
+        setStatus("모든 제작 단계를 완료했습니다! 🎉", "success");
+        return;
+    }
+
     currentIndex += 1;
     showStep(true);
-    setStatus(`${currentIndex}단계 완료! 다음 단계 안내 영상을 재생합니다.`, "success");
-  });
 
-  obscuredBtn.addEventListener("click", () => {
-    if (!steps.length) return;
-    video.pause();
-    setStatus("완성한 레고를 화면에 비춰주세요. 현재 단계를 유지합니다.", "warning");
-  });
+    setStatus(
+        `${currentIndex + 1}단계 안내 영상을 재생합니다.`,
+        "neutral"
+    );
+  }
 
-  wrongBtn.addEventListener("click", () => {
-    if (!steps.length) return;
-    video.pause();
-    video.currentTime = Math.max(0, Number(steps[currentIndex].start_sec) || 0);
-    const promise = video.play();
-    if (promise) promise.catch(() => {});
-    setStatus("잘못 조립하셨어요. 다시 한 번 영상을 잘 보고 제작해 봐요.", "error");
-  });
+  currentStepBtn.addEventListener("click", replayCurrentStep);
+  nextStepBtn.addEventListener("click", goToNextStep);
 
   backBtn.addEventListener("click", () => { window.location.href = "./connect.html"; });
+  
+  function handleAIResult(result) {
+    switch (result) {
+        case "obscured":
+            video.pause();
+            setStatus(
+                "완성한 레고를 화면에 비춰주세요.",
+                "warning"
+            );
+            break;
 
+        case "incorrect":
+            replayCurrentStep();
+            setStatus(
+                "잘못 조립했어요. 현재 단계를 다시 확인해주세요.",
+                "error"
+            );
+            break;
+
+        case "correct":
+            goToNextStep();
+            setStatus(
+                "올바르게 조립했습니다! 다음 단계로 이동합니다.",
+                "success"
+            );
+            break;
+    }
+  }
   if (!steps.length) {
     titleEl.textContent = "제작 단계가 없습니다.";
     numberEl.textContent = "STEP - / -";

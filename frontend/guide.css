@@ -22,7 +22,83 @@
 .guide-status.success{background:#ecfdf5;border-color:#a7f3d0;color:#065f46}
 .guide-status.warning{background:#fffbeb;border-color:#fde68a;color:#92400e}
 .guide-status.error{background:#fef2f2;border-color:#fecaca;color:#991b1b}
-.guide-result-buttons{display:grid;gap:10px}
+/* 영상 아래 버튼 영역 */
+.guide-action-area {
+    margin-top: 20px;
+}
+
+/* 버튼 가로 배치 */
+.guide-action-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+/* 공통 버튼 디자인 */
+.guide-action-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-height: 58px;
+    padding: 12px 20px;
+
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* 현재 단계 다시 보기 - 흰색 */
+#currentStepBtn {
+    background: #ffffff;
+    color: #555555;
+    border: 1px solid #e5e7eb;
+}
+
+#currentStepBtn:hover:not(:disabled) {
+    background: #f8fafc;
+    border-color: #9ca3af;
+}
+
+/* 다음 단계 - 검은색 */
+#nextStepBtn {
+    background: #111111;
+    color: #ffffff;
+    border: 1px solid #111111;
+}
+
+#nextStepBtn:hover:not(:disabled) {
+    background: #333333;
+    border-color: #333333;
+}
+
+/* 버튼 아이콘 */
+.button-icon {
+    font-size: 21px;
+    line-height: 1;
+}
+
+/* 비활성화 버튼 */
+.guide-action-buttons button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* 버튼 아래 설명 */
+.guide-action-hints {
+    margin-top: 14px;
+    color: #777777;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.guide-action-hints p {
+    margin: 0 0 8px;
+}
 .guide-divider{height:1px;margin:22px 0;background:var(--line,#e5e7eb)}
 .guide-step-list{display:grid;gap:8px;margin:0 0 20px;padding:0;list-style:none}
 .guide-step-list li{padding:11px 12px;border:1px solid var(--line,#e5e7eb);border-radius:10px;color:var(--text,#111827);font-size:13px;cursor:pointer}

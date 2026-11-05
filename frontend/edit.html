@@ -19,13 +19,16 @@
     <section class="editor-layout">
       <div class="preview-panel">
         <div class="panel-title">분석된 레고 제작 영상</div>
-        <video id="previewVideo" controls></video>
-        <div id="videoPlaceholder" class="video-placeholder">
-          <div>🎬</div>
-          <p>분석된 영상이 이곳에 표시됩니다.</p>
+
+        <!-- 영상과 안내 문구를 하나의 미리보기 영역으로 통합 -->
+        <div class="video-preview-wrapper">
+          <video id="previewVideo" class="hidden" controls playsinline></video>
+          <div id="videoPlaceholder" class="video-placeholder">
+            <div>🎬</div>
+            <p>분석된 영상이 이곳에 표시됩니다.</p>
+          </div>
         </div>
 
-        <!-- 타임라인 편집 영역 -->
         <section class="timeline-editor">
           <div class="timeline-heading">
             <div>
@@ -57,10 +60,11 @@
       <aside class="tools-panel">
         <h2>제작 단계 편집</h2>
         <p class="muted">
-          서버가 자동으로 분석한 제작 단계를 확인하고 제목을 수정할 수 있습니다.
+          서버가 자동으로 분석한 제작 단계를 확인하고 제목과 Transcript를 수정할 수 있습니다.
           단계의 시작·종료 시간은 타임라인 경계선을 조작하면 자동으로 변경됩니다.
         </p>
 
+        <!-- Confirm 버튼은 단계 목록보다 위에 배치 -->
         <button id="confirmEditBtn" class="btn primary full" type="button">
           편집 확인 및 휴대폰 연결
         </button>
@@ -76,7 +80,6 @@
           타임라인에서 구간을 더블클릭하면 해당 구간만 둘로 나뉩니다.
           경계선 삭제는 영상을 삭제하는 것이 아니라 인접한 두 단계를 하나로 합치는 기능입니다.
         </div>
-
       </aside>
     </section>
   </main>
